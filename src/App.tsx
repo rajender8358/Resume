@@ -34,7 +34,7 @@ const App = () => {
             <section className="mb-2 print:mb-1.5">
               <h3 className="text-base font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1">Professional Summary</h3>
               <p className="text-[11px] text-gray-700 leading-snug text-justify">
-              Seasoned Full-Stack Developer with 7+ years of experience in building high-performance mobile (React Native) and web (React.js) applications. Skilled in creating scalable, user-focused solutions with clean architecture and responsive UI/UX. Proficient in backend development using Node.js, with strong command over AWS services like Cognito, Amplify, DynamoDB, and S3 for secure, cloud-native apps. Adept at CI/CD, automation, and cross-functional team collaboration. Passionate about modern tech and AI tools (Cursor/ChatGPT, Gemini) to streamline workflows, boost productivity, and drive innovation.
+              Seasoned Full-Stack Developer with 8+ years of experience in building high-performance mobile (React Native) and web (React.js) applications. Skilled in creating scalable, user-focused solutions with clean architecture and responsive UI/UX. Proficient in backend development using Node.js, with strong command over AWS services like Cognito, Amplify, DynamoDB, and S3 for secure, cloud-native apps. Adept at CI/CD, automation, and cross-functional team collaboration. Passionate about modern tech and AI tools (Cursor/ChatGPT) to streamline workflows, boost productivity, and drive innovation.
               </p>
             </section>
 
@@ -107,59 +107,65 @@ const App = () => {
               <div className="grid grid-cols-2 gap-x-3 gap-y-1 print:gap-y-0.5">
                 {/* 2-line projects */}
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    UR.LIFE <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
-                  <p className="text-gray-700 text-[10px]">React Native (Mobile & TV) • React JS (Web) • Health & Wellness</p>
-                </div>
-                <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    Navotas <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    Nav App (City of Navotas)
+                  </div>
                   <p className="text-gray-700 text-[10px]">Flutter • Government App for Navotas City, Philippines</p>
                 </div>
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    42 Cards <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    UR.LIFE
+                  </div>
+                  <p className="text-gray-700 text-[10px]">React Native (Mobile & TV) • React JS (Web) • Health & Wellness</p>
+                </div>
+                <div>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    42 Cards
+                  </div>
                   <p className="text-gray-700 text-[10px]">React JS • Finance • Credit Card Management System</p>
                 </div>
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    Run Tailor <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    Run Tailor
+                  </div>
                   <p className="text-gray-700 text-[10px]">React Native • Customer & Partner App • Fashion & Lifestyle</p>
                 </div>
                 {/* 1-line projects */}
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    Twin Dolphin <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    Twin Dolphin
+                  </div>
                   <p className="text-gray-700 text-[10px]">React Native • Travel & Hospitality</p>
                 </div>
                 <div>
-                  <a href="https://web.cfochallenge.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    CFO Challenge <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    CFO Challenge
+                  </div>
                   <p className="text-gray-700 text-[10px]">React Native • Finance E-Learning</p>
                 </div>
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    Rowdy <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    Rowdy
+                  </div>
                   <p className="text-gray-700 text-[10px]">Flutter • E-Commerce</p>
                 </div>
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    Leo1 <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    Leo1
+                  </div>
                   <p className="text-gray-700 text-[10px]">React Native & React JS • Financial Technology</p>
                 </div>
                 <div>
-                  <a href="#" className="font-semibold text-gray-900 hover:text-blue-600 flex items-center text-[11px]">
-                    JVB Health & Wellness <ExternalLink className="w-2.5 h-2.5 ml-1" />
-                  </a>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    JVB Health & Wellness
+                  </div>
                   <p className="text-gray-700 text-[10px]">React Native • Health & Wellness</p>
+                </div>
+                <div>
+                  <div className="font-semibold text-gray-900 text-[11px]">
+                    137 Mastery
+                  </div>
+                  <p className="text-gray-700 text-[10px]">Web application using React</p>
                 </div>
               </div>
             </section>
@@ -190,29 +196,6 @@ const App = () => {
             <section className="mb-2.5 print:mb-2">
               <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Skills</h3>
               <div className="space-y-2 print:space-y-1.5">
-                {/* Key Achievements */}
-                <div>
-                  <h4 className="font-semibold mb-1 text-[11px]">Key Achievements</h4>
-                  <div className="grid grid-cols-2 gap-1.5">
-                    <div className="bg-gray-100 border border-gray-300 rounded p-1.5 text-center">
-                      <div className="text-[16px] font-bold text-gray-800">7+</div>
-                      <div className="text-[8px] text-gray-600 leading-tight">Years Exp.</div>
-                    </div>
-                    <div className="bg-gray-100 border border-gray-300 rounded p-1.5 text-center">
-                      <div className="text-[16px] font-bold text-gray-800">15+</div>
-                      <div className="text-[8px] text-gray-600 leading-tight">Projects</div>
-                    </div>
-                    <div className="bg-gray-100 border border-gray-300 rounded p-1.5 text-center">
-                      <div className="text-[16px] font-bold text-gray-800">3</div>
-                      <div className="text-[8px] text-gray-600 leading-tight">Tech Stacks</div>
-                    </div>
-                    <div className="bg-gray-100 border border-gray-300 rounded p-1.5 text-center">
-                      <div className="text-[16px] font-bold text-gray-800">Full</div>
-                      <div className="text-[8px] text-gray-600 leading-tight">Stack Dev</div>
-                    </div>
-                  </div>
-                </div>
-
                 <div>
                   <h4 className="font-semibold mb-1 text-[11px]">Mobile Development</h4>
                   <div className="grid grid-cols-[repeat(auto-fit,minmax(5.5rem,1fr))] gap-1.5 text-[9px]">
@@ -239,11 +222,8 @@ const App = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1 text-[11px]">AI-Powered Development</h4>
-                  <p className="text-[9px] text-gray-700 leading-snug mb-1.5">
-                    Leveraging cutting-edge AI tools across the entire development lifecycle—from ideation and code generation to debugging, optimization, and deployment automation.
-                  </p>
                   <div className="grid grid-cols-[repeat(auto-fit,minmax(5.5rem,1fr))] gap-1.5 text-[9px]">
-                    {['ChatGPT', 'Gemini', 'Claude', 'Cursor', 'Copilot', 'Windsurf', 'v0', 'Bolt', 'Lovable'].map(tool => (
+                    {['Cursor AI', 'ChatGPT', 'Bolt', 'Claude'].map(tool => (
                       <span key={tool} className="bg-gray-100 px-1.5 py-0.5 rounded text-center">{tool}</span>
                     ))}
                   </div>
@@ -252,6 +232,16 @@ const App = () => {
               </div>
             </section>
             
+            {/* Education */}
+            <section className="mb-2.5 print:mb-2">
+              <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Education</h3>
+              <div className="text-[11px]">
+                <h4 className="font-semibold">Bachelor of Technology in Electronics and Communication Engineering</h4>
+                <p className="text-gray-600">Malla Reddy Institute of Technology and Management • Hyderabad, India</p>
+                <p className="text-[10px] text-gray-500 mt-0.5">Jun 2018</p>
+              </div>
+            </section>
+
             {/* Certifications */}
             <section className="mb-2.5 print:mb-2">
               <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Certifications</h3>
@@ -261,23 +251,28 @@ const App = () => {
               </div>
             </section>
 
-            {/* Languages */}
+            {/* Core Strengths */}
             <section className="mb-2.5 print:mb-2">
+              <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Core Strengths</h3>
+              <ul className="list-disc list-outside pl-4 text-[11px] text-gray-700 space-y-0.5">
+                <li className="font-semibold">End-to-End Product Delivery</li>
+                <li className="font-semibold">Scalable Frontend Architecture</li>
+                <li className="font-semibold">Cross-Platform App Development</li>
+                <li className="font-semibold">Performance Optimization</li>
+                <li className="font-semibold">Agile Sprint Leadership</li>
+                <li className="font-semibold">Mentoring & Code Reviews</li>
+                <li className="font-semibold">CI/CD Pipeline Automation</li>
+                <li className="font-semibold">Cloud Deployment & Release Management</li>
+              </ul>
+            </section>
+
+            {/* Languages */}
+            <section>
               <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Languages</h3>
               <div className="space-y-1 text-[11px]">
                 <div className="flex justify-between"><span>English</span> <span className="text-gray-600">Proficient</span></div>
                 <div className="flex justify-between"><span>Telugu</span> <span className="text-gray-600">Native</span></div>
                 <div className="flex justify-between"><span>Hindi</span> <span className="text-gray-600">Proficient</span></div>
-              </div>
-            </section>
-
-            {/* Education */}
-            <section>
-              <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Education</h3>
-              <div className="text-[11px]">
-                <h4 className="font-semibold">Bachelor of Technology in Electronics and Communication Engineering</h4>
-                <p className="text-gray-600">Malla Reddy Institute of Technology and Management • Hyderabad, India</p>
-                <p className="text-[10px] text-gray-500 mt-0.5">Jun 2018</p>
               </div>
             </section>
           </div>
