@@ -24,7 +24,7 @@ const App = () => {
                   </a>
                   <a href="https://www.linkedin.com/in/rajenderreddy-fullstackdeveloper/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-1 hover:text-blue-600">
                     <Linkedin size={12} />
-                    <span>rajenderreddy-fullstackdeveloper</span>
+                    <span>www.linkedin.com/in/rajenderreddy-fullstackdeveloper</span>
                   </a>
                 </div>
               </div>
@@ -255,14 +255,14 @@ const App = () => {
             <section className="mb-2.5 print:mb-2">
               <h3 className="text-sm font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-1.5">Core Strengths</h3>
               <ul className="list-disc list-outside pl-4 text-[11px] text-gray-700 space-y-0.5">
-                <li className="font-semibold">End-to-End Product Delivery</li>
-                <li className="font-semibold">Scalable Frontend Architecture</li>
-                <li className="font-semibold">Cross-Platform App Development</li>
-                <li className="font-semibold">Performance Optimization</li>
-                <li className="font-semibold">Agile Sprint Leadership</li>
-                <li className="font-semibold">Mentoring & Code Reviews</li>
-                <li className="font-semibold">CI/CD Pipeline Automation</li>
-                <li className="font-semibold">Cloud Deployment & Release Management</li>
+                <li>End-to-End Product Delivery</li>
+                <li>Scalable Frontend Architecture</li>
+                <li>Cross-Platform App Development</li>
+                <li>Performance Optimization</li>
+                <li>Agile Sprint Leadership</li>
+                <li>Mentoring & Code Reviews</li>
+                <li>CI/CD Pipeline Automation</li>
+                <li>Cloud Deployment & Release Management</li>
               </ul>
             </section>
 
